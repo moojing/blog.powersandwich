@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog_powersandwhich=self.webpackChunkblog_powersandwhich||[]).push([[133],{7988:e=>{e.exports=JSON.parse('{"permalink":"/blog.powersandwich/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"The blog of johnnyreilly","blogTitle":"I CAN MAKE THIS WORK"}')}}]);
