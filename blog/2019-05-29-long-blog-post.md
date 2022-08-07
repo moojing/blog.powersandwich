@@ -3,6 +3,7 @@ slug: long-blog-post
 title: Long Blog Post
 authors: endi
 tags: [hello, docusaurus]
+hide_table_of_contents: false
 ---
 
 This is the summary of a very long blog post,
