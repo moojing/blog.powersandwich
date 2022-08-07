@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_powersandwhich=self.webpackChunkblog_powersandwhich||[]).push([[253],{1823:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/blog.powersandwich/tags/facebook","allTagsPath":"/blog.powersandwich/tags","count":1}')}}]);
