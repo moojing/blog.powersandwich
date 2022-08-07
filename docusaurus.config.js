@@ -3,11 +3,10 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const BLOG_TITLE = 'OO能量三明治'
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OO能量三明治',
-  tagline: 'TAG LINE!!',
+  title: BLOG_TITLE,
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/blog.powersandwich/',
   onBrokenLinks: 'throw',
@@ -36,8 +35,9 @@ const config = {
         docs: false,
         blog: {
           routeBasePath: '/', // Set this value to '/'.
-          blogTitle: 'I CAN MAKE THIS WORK',
-          blogDescription: 'The blog of johnnyreilly',
+          // 來吃一口三明治，實力倍增輕鬆寫程式！
+          blogTitle: BLOG_TITLE,
+          blogDescription: '《JavaScript 概念三明治》作者的部落格，記錄自己的前端學習經驗。',
           showReadingTime: true,
           editUrl:
             'https://github.com/johnnyreilly/blog.johnnyreilly.com/edit/main/blog-website/',
@@ -55,9 +55,9 @@ const config = {
     ({
       
       navbar: {
-        title: 'OO能量三明治',
+        title: BLOG_TITLE,
         logo: {
-          alt: 'OO能量三明治',
+          alt: BLOG_TITLE,
           src: 'img/logo.svg',
         },
         items: [
@@ -72,47 +72,47 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Power Sandwich.`,
       },
       colorMode: {
         defaultMode: 'dark',
