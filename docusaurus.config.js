@@ -34,11 +34,13 @@ const config = {
       ({
         docs: false,
         blog: {
-          routeBasePath: '/', // Set this value to '/'.
-          // 來吃一口三明治，實力倍增輕鬆寫程式！
-          blogTitle: BLOG_TITLE,
-          blogDescription: '《JavaScript 概念三明治》作者的部落格，記錄自己的前端學習經驗。',
+          routeBasePath: '/', // Set this value to '/'. 
+          blogTitle: '來吃一口三明治，實力倍增輕鬆寫程式！',
+          blogDescription: `《JavaScript 概念三明治》作者的部落格，記錄自己的學習經驗；本粉專專門收錄各類科技知識文章，
+                               如前端工程技術、區塊鏈最新項目分享，以及網路上流傳的各式各樣的創新數位產品介紹。`,
           showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           editUrl:
             'https://github.com/johnnyreilly/blog.johnnyreilly.com/edit/main/blog-website/',
         },
@@ -57,7 +59,7 @@ const config = {
       navbar: {
         title: BLOG_TITLE,
         logo: {
-          alt: BLOG_TITLE,
+          alt: 'OO能量三明治',
           src: 'img/logo.svg',
         },
         items: [

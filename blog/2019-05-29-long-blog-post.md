@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: endi
+authors: mujing
 tags: [hello, docusaurus]
 hide_table_of_contents: false
 ---
