@@ -8,7 +8,7 @@ const BLOG_TITLE = 'OO能量三明治'
 const config = {
   title: BLOG_TITLE,
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/blog.powersandwich/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
