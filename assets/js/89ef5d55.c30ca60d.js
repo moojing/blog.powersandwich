@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog_powersandwhich=self.webpackChunkblog_powersandwhich||[]).push([[985],{5122:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/blog.powersandwich/tags/docusaurus","allTagsPath":"/blog.powersandwich/tags","count":4}')}}]);
