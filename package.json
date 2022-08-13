@@ -20,7 +20,7 @@
     "@docusaurus/preset-classic": "2.0.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
-    "docusaurus-post-generator": "^1.0.3",
+    "docusaurus-post-generator": "^1.0.7",
     "docusaurus-postgen": "../docusaurus-postgen",
     "prism-react-renderer": "^1.3.5",
     "react": "^17.0.2",
