@@ -3361,16 +3361,16 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docusaurus-post-generator@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/docusaurus-post-generator/-/docusaurus-post-generator-1.0.1.tgz#b33fcffe7f952778e8f59071cbec530c78d01e50"
-  integrity sha512-tgFGchp+LYETx5VwyGZRCevvESSGS5BklUuCsLEsGdoAUu32zx4kkDYcO6y3HiHGKmDHcP+td2VnwY8QxwmZiA==
+docusaurus-post-generator@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/docusaurus-post-generator/-/docusaurus-post-generator-1.0.3.tgz#f3e5b31099357385c2c295130747e58a98af9c20"
+  integrity sha512-LJOtNgaRxgFZnVYHLODKG7OoYcIO2H3FsVy11rWvKM8AA2EXviL05pXMlbEQf0qPQLGtcsz72GgvyhHs4dcHfA==
   dependencies:
     commander "^9.4.0"
     dayjs "^1.11.5"
 
 docusaurus-postgen@../docusaurus-postgen:
-  version "1.0.1"
+  version "1.0.3"
   dependencies:
     commander "^9.4.0"
     dayjs "^1.11.5"
