@@ -3,11 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const BLOG_TITLE = 'OO能量三明治'
+const BLOG_TITLE = '前端實力三明治'
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: BLOG_TITLE,
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://blog.powersandwich.com.tw/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
