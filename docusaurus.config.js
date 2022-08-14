@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: BLOG_TITLE,
         logo: {
-          alt: 'OO能量三明治',
+          alt: BLOG_TITLE,
           src: 'img/logo.svg',
         },
         items: [

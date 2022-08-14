@@ -36,3 +36,7 @@
     color: var(--ifm-color-primary-lightest);
     background-color: transparent;
 }
+
+a{
+  color: var(--ifm-font-color-base);
+}
